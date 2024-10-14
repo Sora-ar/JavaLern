@@ -18,7 +18,7 @@ public class SortStringsByLength {
             strings[i] = scanner.nextLine();
         }
 
-        // Сортування
+        // Сортування (лямбда-вираз)
         Arrays.sort(strings, (s1, s2) -> {
             return Integer.compare(s2.length(), s1.length()); // Порівняння рядків
         });
